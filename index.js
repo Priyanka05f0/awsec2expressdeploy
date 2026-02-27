@@ -9,7 +9,7 @@ app.set("view engine","pug");
 
 
 app.get('/home',(req,res)=>{
-    const subjects = ["DevOps","CC","SPM","Python","Python Lab","CD","CC Lab","CNS lab","CNS"];
+    const subjects = ["DevOps","CC","SPM","Python","DBMS","Python Lab","CD","CC Lab","CNS lab","CNS"];
     res.render('sample.pug',{sub:subjects});
 });
 app.listen(4000,()=>{
